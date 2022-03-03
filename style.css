@@ -1,12 +1,11 @@
 body {
-    margin: 0;
+    margin: 0 5px;
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
 nav {
-    /*padding: 10px 0 10px 0;*/
     background: black;
     color: gray;
 }
@@ -18,9 +17,6 @@ ul {
 
     display: flex;
     align-items: center;
-
-
-
 }
 
 li {
@@ -72,4 +68,20 @@ article {
 
 .contact {
     color: gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.width {
+    width: 500px;
+    
+}
+
+textarea {
+    height: 150px;
 }
