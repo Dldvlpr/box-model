@@ -32,7 +32,9 @@ li {
 li:hover {
     background: lightgray;
     color: black;
+    border: 1px solid black;
     transition: 0.5s;
+
 }
 
 .carousel {
@@ -65,6 +67,7 @@ article {
 .footer {
     margin-top: 100px;
     border-top: 1px solid black;
+    display: flex;
 }
 
 .contact {
